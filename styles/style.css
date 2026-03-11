@@ -2,10 +2,11 @@
 display: grid;
 grid-template-columns: 1fr min-content 1fr;
 align-items: center;
-padding-top: 93.16px;
-padding-bottom: 95.19px;
+padding-top: 92px;
+padding-bottom: 96px;
 padding-left: 50px;
 padding-right: 50px;
+min-height: 293px;
 }
 
 .header__logo {
@@ -24,6 +25,8 @@ padding-right: 50px;
   list-style: circle;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .header__link {
@@ -75,10 +78,11 @@ z-index: 1;
 .cover__title {
 display: flex;
 flex-direction: column;
+justify-content: space-between;
 gap: 20px;
 font-size: 100px;
 font-weight: 700;
-line-height: 1;
+line-height: 1.15;
 text-transform: uppercase;
 color: white;
 letter-spacing: 0.3em;
@@ -114,10 +118,13 @@ word-spacing: 18px;
 }
 
 .bet-button {
-  display: inline-block;
-  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
   border: 1px solid white;
+  height: 51px;
+  width: 256px;
   color: white;
   font-size: 22px;
   font-weight: 400;
@@ -127,7 +134,9 @@ word-spacing: 18px;
 }
 
 .lots {
+height: 723px;
 margin-top: 180px;
+margin-left: 24px;
 }
 
 .lots__heading {
@@ -136,6 +145,7 @@ font-weight: 700;
 line-height: 100%;
 text-transform: uppercase;
 margin-bottom: 27px;
+margin-left: 40px;
 }
 
 .lots__card-list {
@@ -214,6 +224,7 @@ background-image: url("../images/card-lot-03.jpg");
   grid-template-columns: 334px 1fr;
   gap: 25px;
   margin: 120px 50px 0;
+  height: 595px;
 }
 
 .about__column_logo {
@@ -229,6 +240,8 @@ background-image: url("../images/card-lot-03.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 35px;
+  margin-left: 47px;
 }
 
 .about__logo img {
@@ -240,11 +253,14 @@ background-image: url("../images/card-lot-03.jpg");
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
+  margin-top: 136px;
+
 }
 
 .about__text {
   display: flex;
-  margin-top: 150px;
+  justify-content: start;
+  margin-top: 100px;
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
